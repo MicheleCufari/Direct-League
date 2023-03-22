@@ -1,0 +1,11 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 500px) {
+#fullPlayer {
+display:none;
+}
+}

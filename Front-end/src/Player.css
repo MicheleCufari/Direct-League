@@ -1,0 +1,22 @@
+#bg{
+    background-image: url(https://i.pinimg.com/originals/92/cc/ae/92ccaeb5c94450914dffed88eb159aac.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+@media (max-width: 500px) {
+#fullPlayer {
+display:none;
+}
+#bg{
+display:none;
+}
+}
+
+@media (min-width: 500px) {
+#singlePlayer {
+display:none;
+}
+}
